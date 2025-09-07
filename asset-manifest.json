@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/desktop-tutorial/static/css/main.fb665e37.css",
+    "main.js": "/desktop-tutorial/static/js/main.a7baa25b.js",
+    "static/js/453.96453769.chunk.js": "/desktop-tutorial/static/js/453.96453769.chunk.js",
+    "index.html": "/desktop-tutorial/index.html",
+    "main.fb665e37.css.map": "/desktop-tutorial/static/css/main.fb665e37.css.map",
+    "main.a7baa25b.js.map": "/desktop-tutorial/static/js/main.a7baa25b.js.map",
+    "453.96453769.chunk.js.map": "/desktop-tutorial/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb665e37.css",
+    "static/js/main.a7baa25b.js"
+  ]
+}
