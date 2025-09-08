@@ -1,14 +1,14 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Appform from './components/Appform';   // ✅ matches file name
-import About from './components/About';
+// import About from './components/About';
 import React, { useState } from 'react';
 import Alert from './components/Alert';
-import {
-  BrowserRouter as Router,
-  Routes,   // ✅ Switch → Routes
-  Route
-} from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Routes,   // ✅ Switch → Routes
+//   Route
+// } from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState('light'); // Whether dark mode is enabled or not
@@ -39,28 +39,27 @@ function App() {
 
   return (
     <>
-      <Router>
+      {/* <Router> */}
         <Navbar title="Appform" mode={mode} toggleMode={toggleMode} key={new Date()} />
         <Alert alert={alert} />
         <div className="container my-3">
-          <Routes>   {/* ✅ Switch → Routes */}
-            <Route 
+          {/* <Routes>   {/* ✅ Switch → Routes */}
+            {/* <Route 
               path="/about" 
               element={<About mode={mode} />}   // ✅ element prop
-            />
-            <Route 
+            /> */}
+            {/* <Route 
               path="/" 
-              element={
+              element={ */}
                 <Appform 
                   showAlert={showAlert} 
                   heading="Try Appform - word counter, character counter, remove extra spaces" 
-                  mode={mode} 
-                />
-              } 
+                  mode={mode} />
+              {/* } 
             />
-          </Routes>
+          </Routes> */}
         </div>
-      </Router>
+      {/* </Router> */}
     </>
   );
 }
